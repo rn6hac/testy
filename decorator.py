@@ -9,7 +9,7 @@ def benchmark(func):
         print(f'Время выполнение запроса {processing_time: .4f} секунд')
         return return_vallue
     return wrapper
-
+#cesfgh dsfgh sdgh dstgh dsgh sdgh sd
 @benchmark
 def fetch_webpage(url):
     web_page = requests.get(url, verify=False)
